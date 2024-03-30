@@ -13,9 +13,8 @@ const awsConfig = {
     region: 'ap-south-1',
     endpoint: 'http://dynamodb.ap-south-1.amazonaws.com',
     credentials: {
-        accessKeyId: 'AKIAY2YS5NFNV7VECIUV',
-        secretAccessKey: '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'
-    }
+        accessKeyId: '---',
+        secretAccessKey:'---'
 };
 const dynamoDBClient = new DynamoDBClient(awsConfig);
 const dynamoDB = DynamoDBDocumentClient.from(dynamoDBClient);
